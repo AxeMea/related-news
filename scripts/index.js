@@ -16,6 +16,6 @@ const loop = () => {
 
 setInterval(() => {
     loop()
-}, 1000 * 60 * 30)
+}, 1000 * 60 * 60)
 
 loop()
