@@ -7,7 +7,7 @@ const loop = () => {
     execSync('git commit -m "自动提交"')
 
     // 执行 git push 命令
-    execSync('git push origin main')
+    execSync('git push github main')
 }
 
 setInterval(() => {
