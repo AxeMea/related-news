@@ -1,0 +1,5 @@
+{
+  "name": "Nexus AI News Aggregator",
+  "description": "A futuristic, tech-themed news aggregator that uses Gemini AI to summarize headlines in real-time.",
+  "requestFramePermissions": []
+}
