@@ -7,6 +7,8 @@ const loop = () => {
     execSync('git commit -m "自动提交"')
 
     // 执行 git push 命令
+    execSync('git config --global http.proxy http://127.0.0.1:7897')
+    execSync('git config --global https.proxy http://127.0.0.1:7897')
     execSync('git push github main')
 
     console.log('自动提交完成')
