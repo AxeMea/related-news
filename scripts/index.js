@@ -8,6 +8,8 @@ const loop = () => {
 
     // 执行 git push 命令
     execSync('git push github main')
+
+    console.log('自动提交完成')
 }
 
 setInterval(() => {
